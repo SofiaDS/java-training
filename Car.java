@@ -2,10 +2,37 @@
 public class Car {
     String brand;
     String model;
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
     int year;
 
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    // getter for the attribute brand
+    String getBrand() {
+        return this.brand;
+    }
+
+    // setter for the attribute brand
+    void setBrand(String brand) {
+        this.brand = brand;
+    }
+
     String displayInfo() {
-        return "Car:" + this.brand + " " + this.model + " (" + this.year + ")";
+        return "Car:" + this.getBrand() + " " + this.getModel() + " (" + this.getYear() + ")";
     }
 
     void startEnghine() {
@@ -18,19 +45,19 @@ public class Car {
 
         // instantiate a Car object
         Car car1 = new Car();
-        car1.brand = "Toyota";
-        car1.model = "Corolla";
-        car1.year = 2020;
+        car1.setBrand("Toyota");
+        car1.setModel("Corolla");
+        car1.setYear(2020);
 
         Car car2 = new Car();
-        car2.brand = "Honda";
-        car2.model = "Civic";
-        car2.year = 2021;
+        car2.setBrand("Honda");
+        car2.setModel("Civic");
+        car2.setYear(2021);
 
         Car car3 = new Car();
-        car3.brand = "Ford";
-        car3.model = "Focus";
-        car3.year = 2019;
+        car3.setBrand("Ford");
+        car3.setModel("Focus");
+        car3.setYear(2019);
 
         System.out.println(car1.displayInfo());
         System.out.println(car2.displayInfo());
