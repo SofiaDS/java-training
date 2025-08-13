@@ -4,6 +4,20 @@ public class Car {
     String model;
     int year;
 
+    // default constructor
+    public Car(String brand, String model, int year) {
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+    }
+
+    // constructor with two parameters - polymorphism constructor overloading
+    // this constructor allows to create a Car object without specifying the year
+    public Car(String brand, String model) {
+        this.brand = brand;
+        this.model = model;
+    }
+
     // getter for the attribute brand
     public String getBrand() {
         return this.brand;
@@ -43,20 +57,20 @@ public class Car {
         System.out.println("Hello world from a Car class");
 
         // instantiate a Car object
-        Car car1 = new Car();
-        car1.setBrand("Toyota");
-        car1.setModel("Corolla");
-        car1.setYear(2020);
+        Car car1 = new Car("Toyota", "Corolla", 2020);
+        // car1.setBrand("Toyota");
+        // car1.setModel("Corolla");
+        // car1.setYear(2020);
 
-        Car car2 = new Car();
-        car2.setBrand("Honda");
-        car2.setModel("Civic");
-        car2.setYear(2021);
+        Car car2 = new Car("Honda", "Civic");
+        // car2.setBrand("Honda");
+        // car2.setModel("Civic");
+        // car2.setYear(2021);
 
-        Car car3 = new Car();
-        car3.setBrand("Ford");
-        car3.setModel("Focus");
-        car3.setYear(2019);
+        Car car3 = new Car("Ford", "Focus", 2019);
+        // car3.setBrand("Ford");
+        // car3.setModel("Focus");
+        // car3.setYear(2019);
 
         System.out.println(car1.displayInfo());
         System.out.println(car2.displayInfo());
