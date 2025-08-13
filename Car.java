@@ -2,6 +2,17 @@
 public class Car {
     String brand;
     String model;
+    int year;
+
+    // getter for the attribute brand
+    public String getBrand() {
+        return this.brand;
+    }
+
+    // setter for the attribute brand
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
 
     public String getModel() {
         return model;
@@ -11,24 +22,12 @@ public class Car {
         this.model = model;
     }
 
-    int year;
-
     public int getYear() {
         return year;
     }
 
     public void setYear(int year) {
         this.year = year;
-    }
-
-    // getter for the attribute brand
-    String getBrand() {
-        return this.brand;
-    }
-
-    // setter for the attribute brand
-    void setBrand(String brand) {
-        this.brand = brand;
     }
 
     String displayInfo() {
