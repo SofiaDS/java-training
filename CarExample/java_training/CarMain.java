@@ -1,7 +1,7 @@
-package it.sofia_ds.java_training;
+package CarExample.java_training;
 
-import it.sofia_ds.java_training.implementations.DieselCar;
-import it.sofia_ds.java_training.implementations.ElectricCar;
+import CarExample.java_training.implementations.DieselCar;
+import CarExample.java_training.implementations.ElectricCar;
 
 public class CarMain {
     // Entry point for static class execution

@@ -1,4 +1,4 @@
-package it.sofia_ds.java_training;
+package CarExample.java_training.generics;
 
 //defining car class
 public class Car {

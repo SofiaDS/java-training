@@ -1,4 +1,4 @@
-package it.sofia_ds.java_training.implementations;
+package CarExample.java_training.implementations;
 
 //defining car class
 public class Car_old {
