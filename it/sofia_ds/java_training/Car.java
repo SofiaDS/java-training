@@ -1,3 +1,5 @@
+package it.sofia_ds.java_training;
+
 //defining car class
 public class Car {
     private String brand;
@@ -42,10 +44,6 @@ public class Car {
 
     public double getFuelLevel() {
         return fuelLevel;
-    }
-
-    private void setFuelLevel(double fuelLevel) {
-        this.fuelLevel = fuelLevel;
     }
 
     public boolean hasFuel() {

@@ -1,3 +1,7 @@
+package it.sofia_ds.java_training.implementations;
+
+import it.sofia_ds.java_training.Car;
+
 // encapsulation
 public class DieselCar extends Car {
 
