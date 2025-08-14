@@ -1,0 +1,5 @@
+least privilage: giving minimum necessary access to complete a certain task
+immutability: we prevent changes to constructor attributes by making them final and removing getter and setter
+differentiate internal and external apis: expose only necessary public method, and keep the rest as private
+factory methods: prevent direct instantiation by using private constructor, controlling that obj creationg can only be done trhough static method
+control exposure: allow us to define behavuours indepentendly from classes implementation
