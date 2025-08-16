@@ -1,7 +1,7 @@
 package excercises;
 
 // Implement a static method perimeterRectangle(double length, double width) that returns the perimeter of a rectangle
-public class perimeter {
+public class Perimeter {
 
     public static double perimeterRectangle(double length, double width) {
         if (length <= 0 || width <= 0) {
@@ -10,10 +10,10 @@ public class perimeter {
         return 2 * (length + width);
     }
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         // Example usage
         double length = 5.0;
         double width = 3.0;
-
+        System.out.println("Perimeter of the rectangle: " + Perimeter.perimeterRectangle(length, width));
     }
 }
