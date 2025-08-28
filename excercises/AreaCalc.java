@@ -14,6 +14,7 @@ public class AreaCalc {
     public static void main(String[] args) {
         // Example usage
         double a = 3.0;
+
         double b = 4.0;
         double c = 5.0;
         triangleArea(a, b, c);
