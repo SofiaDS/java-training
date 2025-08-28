@@ -5,7 +5,7 @@ package excercises;
 the sentence (words are separated by spaces)
  */
 public class WordCounter {
-    private static void WordCounter(String sentence) {
+    private static void WordCounterM(String sentence) {
         // split sentences by spaces
         String[] words = sentence.split(" ");
         // count el of words[]
@@ -17,6 +17,6 @@ public class WordCounter {
     public static void main(String[] args) {
         // Example usage
         String sentence = "This is an example sentence";
-        WordCounter(sentence);
+        WordCounterM(sentence);
     }
 }

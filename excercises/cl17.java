@@ -11,7 +11,7 @@ public class cl17 {
         // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
 
         // build fibonacci serie
-        for (int in = 0; in < n; i++) {
+        for (int in = 0; in < n; in++) {
             if (in == 0) {
                 System.out.print("0 ");
             } else if (in == 1) {

@@ -5,7 +5,7 @@ package excercises;
 given index (based on the number entered
  */
 public class SubstringPrint {
-    private static void SubstringPrint(String str, int i) {
+    private static void SubstringPrintM(String str, int i) {
         // get substring starting from index i
         // check index is valid
         if (i > 0 || i < str.length()) {
@@ -20,6 +20,6 @@ public class SubstringPrint {
         // Example usage
         String str = "Hello, World!";
         int index = 22;
-        SubstringPrint(str, index);
+        SubstringPrintM(str, index);
     }
 }
