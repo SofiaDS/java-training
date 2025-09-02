@@ -1,6 +1,6 @@
 package excercises;
 
-public class Calculator {
+public class calculator {
     public static int add(int... numbers) {
         int result = 0;
         for (int number : numbers) {
